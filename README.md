@@ -3,6 +3,9 @@
 Spreadsheet cu prezență și notare: 
 https://docs.google.com/spreadsheets/d/1wQtxeOFPDOXO0D1saaj5DhQwzMj66Tpv69GaV1L0Vpo/edit#gid=0
 
+Un tutorial folositor și interesant de git care este creat sub formă unui joc
+https://learngitbranching.js.org
+
 
 # Java
 
