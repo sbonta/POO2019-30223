@@ -1,0 +1,23 @@
+x^3-3x^2+3x-5
+x+1
+x^3-3x^2+4x-4
+x^3-3x^2+2x-6
+2x^3-6x^2+6x-10
+x^3-3x^2+3x-5
+-5
+x^4-2x^3-2x-5
+x^2-4x+7
+-12
+Complex{real=0.20629, imaginary=1.37472}Complex{real=0.20629, imaginary=-1.37472}Complex{real=2.58740, imaginary=0.00000}x^3-3x^2+3x-5
+x+1
+x^3-3x^2+4x-4
+x^3-3x^2+2x-6
+2x^3-6x^2+6x-10
+x^3-3x^2+3x-5
+-5
+x^4-2x^3-2x-5
+x^2-4x+7
+-12
+Complex{real=0.20629, imaginary=1.37472}
+Complex{real=0.20629, imaginary=-1.37472}
+Complex{real=2.58740, imaginary=0.00000}

@@ -1,0 +1,1 @@
+Lab 2 : Change matrix operations for further use in my polynomial root fiinder

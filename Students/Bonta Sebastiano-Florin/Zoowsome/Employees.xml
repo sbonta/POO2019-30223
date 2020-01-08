@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><content>
+<EMPLOYEE>
+	<name>Ioan Vasile</name>
+	<id>11111111111111</id>
+	<isDead>false</isDead>
+	<salary>2500.0</salary>
+	<workingHours>40.0</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+</content>

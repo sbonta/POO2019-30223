@@ -1,22 +1,41 @@
 package javasmmr.zoowsome.models.animals;
 
+import javasmmr.zoowsome.services.constants.Constants;
+
+import javax.xml.stream.XMLEventWriter;
+import javax.xml.stream.XMLStreamException;
+
+import static javasmmr.zoowsome.repositories.EntityRepository.createNode;
+
 public class Pigeon extends Bird {
 
     public Pigeon() {
-        setNumberOfLegs(2);
-        setName("Columba livia domestica");
-        setMigrates(false);
-        setAverageFlightAltitude(1050);
+        super(2,
+                "Columba livia domestica",
+                0.3,
+                0.1,
+                false,
+                1050);
     }
 
-    public Pigeon(
-            Integer numberOfLegs,
-            String name,
-            Boolean migrates,
-            Integer averageFlightAltitude) {
-        setNumberOfLegs(numberOfLegs);
-        setName(name);
-        setMigrates(migrates);
-        setAverageFlightAltitude(averageFlightAltitude);
+    @SuppressWarnings("unused")
+    public Pigeon(Integer numberOfLegs,
+                  String name,
+                  Double maintenanceCost,
+                  Double dangerPercent,
+                  Boolean migrates,
+                  Integer averageFlightAltitude) {
+        super(numberOfLegs,
+                name,
+                maintenanceCost,
+                dangerPercent,
+                migrates,
+                averageFlightAltitude);
+    }
+
+    @Override
+    public void encodeToXml(XMLEventWriter eventWriter) throws XMLStreamException {
+        super.encodeToXml(eventWriter);
+        createNode(eventWriter, Constants.XML_TAGS.DISCRIMINANT, Constants.Animals.Birds.Pigeon);
     }
 }

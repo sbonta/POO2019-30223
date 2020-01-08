@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><content>
+<ANIMAL>
+	<numberOfLegs>6</numberOfLegs>
+	<name>Laothoe populi</name>
+	<maintenanceCost>0.1</maintenanceCost>
+	<dangerPercent>0.0</dangerPercent>
+	<takenCareOf>false</takenCareOf>
+	<canFly>true</canFly>
+	<isDangerous>false</isDangerous>
+	<DISCRIMINANT>BUTTERFLY</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<numberOfLegs>6</numberOfLegs>
+	<name>Brachypelma smithi</name>
+	<maintenanceCost>0.1</maintenanceCost>
+	<dangerPercent>0.1</dangerPercent>
+	<takenCareOf>false</takenCareOf>
+	<canFly>false</canFly>
+	<isDangerous>false</isDangerous>
+	<DISCRIMINANT>COCKROACH</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<numberOfLegs>4</numberOfLegs>
+	<name>Bos taurus</name>
+	<maintenanceCost>5.3</maintenanceCost>
+	<dangerPercent>0.4</dangerPercent>
+	<takenCareOf>false</takenCareOf>
+	<percentBodyHair>99.7</percentBodyHair>
+	<normalBodyTemperature>39.9</normalBodyTemperature>
+	<DISCRIMINANT>COW</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<numberOfLegs>6</numberOfLegs>
+	<name>Easy Peasy</name>
+	<maintenanceCost>0.7</maintenanceCost>
+	<dangerPercent>1.0</dangerPercent>
+	<takenCareOf>false</takenCareOf>
+	<canFly>true</canFly>
+	<isDangerous>true</isDangerous>
+	<DISCRIMINANT>BUTTERFLY</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<numberOfLegs>2</numberOfLegs>
+	<name>Lemon squeeze</name>
+	<maintenanceCost>0.2</maintenanceCost>
+	<dangerPercent>1.1</dangerPercent>
+	<takenCareOf>true</takenCareOf>
+	<canFly>true</canFly>
+	<isDangerous>true</isDangerous>
+	<DISCRIMINANT>BUTTERFLY</DISCRIMINANT>
+</ANIMAL>
+</content>
